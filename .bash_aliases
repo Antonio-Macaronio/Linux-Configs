@@ -1,0 +1,22 @@
+#aliases
+alias cp="cp -i"                          # confirm before overwriting something
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+alias np='nano -w PKGBUILD'
+alias more=less
+alias update="sudo pacman -Syu"		  # Update System Packages
+alias sdn="sudo shutdown -h now"	  # Shutdown Now
+alias lspkgs="qlist -IRv >> packages && vim packages" #list packages
+alias untar="tar -zxvf" #Untar a file
+alias lt="ls --human-readable --size -1 -S --classify" # show all files in directory listed by size
+alias mkd="mkdir -pv" # make a directory
+alias ka="killall" # kill all programs
+alias gc="git clone" # clone a repository from github
+alias ports="netstat -tulanp" # show open ports
+alias cl="clear" # clear terminal
+alias cp="cp -iv" # copys file, asks user if want to overwrite file
+alias mv="mv - iv" # moves file, asks user if want to overwrite file
+alias rm="rm -v" # deletes file, asks user if want to overwrite file
+alias mkd="mkdir -pv" # make a parent directory and sub directories eg ~/test/subtest
+alias yt="youtube-dl --add-metadata -i" # watch a video in mpv
+alias yta="yt -x -f bestaudio/best"
